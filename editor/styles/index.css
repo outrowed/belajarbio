@@ -1,0 +1,19 @@
+
+body > * {
+    margin-bottom: 16px;
+}
+
+.option-entries > * {
+    margin-bottom: 12px;
+}
+
+#url-output {
+    width: 20cm;
+    height: 1cm;
+
+}
+
+.tools {
+    display: flex;
+    gap: 20px;
+}

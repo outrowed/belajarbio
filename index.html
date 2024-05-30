@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title $text="ui.course.title">Document</title>
+
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <script type="module" src="scripts/main.js"></script>
+</head>
+<body>
+    <nav>
+        <button class="nav-button btn-gray">
+            <img src="./assets/burger.svg" alt="navigation button">
+        </button>
+
+        <div class="toolbar">
+            <!-- <button class="notification"></button> -->
+            <button class="profile">
+                <img src="./assets/profile.png" alt="">
+            </button>
+        </div>
+    </nav>
+    <aside class="side-nav">
+
+    </aside>
+    <main>
+        <h1 $text="ui.course.title">H1J1 Biologi Kelas 11 (AAS 1 2023-2024)</h1>
+        <div class="nav-path">
+            <a href="http://ujian.smadewisartika.sch.id/">Dashboard</a>
+            <a>My courses</a>
+            <a $text="ui.course.title" href="http://ujian.smadewisartika.sch.id/">H1J1 Biologi Kelas 11 (AAS 1 2023-2024)</a>
+        </div>
+        
+        <h2 $text="ui.course.title">H1J1 Biologi Kelas 11 (AAS 1 2023-2024)</h2>
+        <p>Attempts allowed: <span $text="ui.attemptsAllowed">1</span></p>
+        <p>This quiz opened on <span $text="ui.date.quizOpened">Tuesday, 28 November 2023, 7:10 AM</span></p>
+        <p>This quiz will close on <span $text="ui.date.quizClosed">Tuesday, 28 November 2023, 8:40 AM</span>.</p>
+        <p>Time limit: <span $text="ui.timeLimit">1 hour 30 mins</span></p>
+
+        <h2>Summary of your previous attempts</h2>
+        <div class="lg-table">
+            <div class="header">State</div>
+            <div class="header">Review</div>
+            <div class="content">
+                Finished
+                <div>Submitted <span $text="ui.date.courseSubmitted">Tuesday, 28 November 2023, 10:01 AM</span></div>
+            </div>
+            <div class="content"></div>
+        </div>
+        
+        <p>No more attempts are allowed</p>
+    </main>
+    <footer>
+        You are logged in as <a $text="ui.user.title" href="http://ujian.smadewisartika.sch.id/user/profile.php">X-4-28 Taruna Prasetya</a> <a href="http://ujian.smadewisartika.sch.id/login/logout.php">(Log out)</a>
+        <br>
+        <a $text="ui.course.title">H1J3 Agama Islam Kelas 10 (AAT 2022-2023)</a>
+        <br>
+        <br>
+        <a href="http://ujian.smadewisartika.sch.id/admin/tool/dataprivacy/summary.php">Data retention summary</a>
+        <br>
+        <a href="http://ujian.smadewisartika.sch.id/">Get the mobile app</a>
+    </footer>
+</body>
+</html>
